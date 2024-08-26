@@ -1,10 +1,7 @@
 import "./App.css"
-import AudioStream from "./components/AudioStream"
-// import WebSocketChat from "./Sockets"
+import AudioStream from "./components/audio-socket/AudioStream"
 
 const App: React.FC = () => {
   return <AudioStream />
-
-  // <WebSocketChat />
 }
 export default App
